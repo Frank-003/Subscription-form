@@ -1,0 +1,137 @@
+/* Body Styling */
+
+body {
+    background-color: #f4f4f4;
+    /* Light background for the body */
+    font-family: Arial, sans-serif;
+    /* Simple, readable font */
+    margin: 0;
+    /* Remove default margins */
+    padding: 0;
+    /* Remove default padding */
+    display: flex;
+    /* Enable flex layout for centering */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    /* Full height of the viewport */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.featured-img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+/* Form Container Styling */
+
+.form-container {
+    background-color: white;
+    /* White background for the form container */
+    padding: 20px;
+    /* Add space inside the container */
+    border-radius: 8px;
+    /* Slightly rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for a modern look */
+    text-align: center;
+    /* Center align all text inside the form */
+    max-width: 400px;
+    /* Limit the container width */
+    width: 100%;
+    /* Ensure it adjusts for smaller screens */
+}
+
+
+/* Form Heading Styling */
+
+.form-heading {
+    color: #471869;
+    /* Purple color for the heading */
+    font-size: 24px;
+    /* Large text for prominence */
+    margin-bottom: 15px;
+    /* Space below the heading */
+}
+
+
+/* Form Description Styling */
+
+.form-description {
+    font-size: 16px;
+    /* Standard readable font size */
+    line-height: 1.5;
+    /* Add space between lines for readability */
+    margin-bottom: 20px;
+    /* Space below the paragraph */
+    color: #333;
+    /* Neutral dark gray text */
+}
+
+
+/* Form Label Styling */
+
+.form-label {
+    font-size: 14px;
+    /* Smaller font size for the label */
+    display: block;
+    /* Ensure the label is on its own line */
+    margin-bottom: 10px;
+    /* Space below the label */
+    color: #471869;
+    /* Purple color to match the theme */
+}
+
+
+/* Email Input Field Styling */
+
+.form-input {
+    width: 100%;
+    /* Full width of the container */
+    padding: 10px;
+    /* Space inside the input field */
+    border: 1px solid #ccc;
+    /* Light gray border for the input field */
+    border-radius: 4px;
+    /* Slightly rounded corners */
+    margin-bottom: 15px;
+    /* Space below the input field */
+    font-size: 14px;
+    /* Standard input text size */
+}
+
+
+/* Button Styling */
+
+.form-button {
+    background-color: #471869;
+    /* Purple background for the button */
+    color: white;
+    /* White text for contrast */
+    padding: 12px 20px;
+    /* Space inside the button */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Slightly rounded corners */
+    font-size: 16px;
+    /* Standard font size */
+    font-weight: bold;
+    /* Make the text bold */
+    cursor: pointer;
+    /* Pointer cursor for clickable elements */
+    transition: background-color 0.3s ease;
+    /* Smooth color transition on hover */
+}
+
+
+/* Button Hover Effect */
+
+.form-button:hover {
+    background-color: #5e2080;
+    /* Slightly lighter purple on hover */
+}
